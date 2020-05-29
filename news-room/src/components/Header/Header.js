@@ -6,7 +6,7 @@ const Header = props => {
     return (
         <div className="">
             <h1>New Feeds</h1>
-            <Search />
+            {/* <Search /> */}
         </div>
     );
 };
