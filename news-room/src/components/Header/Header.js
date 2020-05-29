@@ -4,9 +4,9 @@ import './Header.scss';
 
 const Header = props => {
     return (
-        <div className="">
+        <div className="header">
             <h1>New Feeds</h1>
-            {/* <Search /> */}
+            <Search />
         </div>
     );
 };
