@@ -1,10 +1,14 @@
 .header {
-    background: rgb(236, 93, 93);
+    background: rgb(216, 97, 97);
     padding: 15px;
     border-radius: 4px;
     margin-bottom: 10px;
     display: grid;
-    grid-template-columns: 85% 15%;
+    grid-template-columns: 80% 20%;
     align-items: center;
-    color: green;
+    color: white;
+    justify-items: start;
+    &__title {
+        margin-left: 15px;
+    }
 }

@@ -1,0 +1,14 @@
+.news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 50px;
+    row-gap: 25px;
+    justify-content: stretch;
+    align-items: stretch;
+    background: white;
+    border-radius: 4px;
+    padding: 30px;
+    margin-bottom: 10px;
+}    
+    

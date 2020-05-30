@@ -1,0 +1,24 @@
+.search {
+    background: white;
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    border-radius: 4px;
+    padding-right: 15px;
+    &__input {
+        padding: 5px 10px;
+        text-align: start;
+        border: none;
+
+    }
+    &__icon {
+        color: rgb(90, 75, 75);
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        &:hover {
+            background: rgb(90, 75, 75);
+            color: white;
+        }
+    }
+}

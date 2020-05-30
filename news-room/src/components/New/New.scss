@@ -1,0 +1,22 @@
+.new {
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 25px;
+    font-weight: 500;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.801);
+    border-radius: 4px;
+    &__img {
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    &__description {
+        padding: 0 25px;
+        font-size: 17px;
+        font-weight: normal;
+    }
+    &__newspaper {
+        margin-top: 0;
+    }
+}

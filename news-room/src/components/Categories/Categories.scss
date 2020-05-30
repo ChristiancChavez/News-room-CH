@@ -1,0 +1,10 @@
+.categories {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 4px;
+    padding-top: 6px;
+    margin-bottom: 10px;
+}
