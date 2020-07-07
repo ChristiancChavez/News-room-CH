@@ -1,10 +1,10 @@
 import React from 'react';
 import './ShowMore.scss';
 
-const ShowMore = () => {
+const ShowMore = ({ newUrl }) => {
     return (
         <div className="show">
-            <button className="show__btn"> VER MÁS</button>
+            <button href={newUrl} className="show__btn"> VER MÁS</button>
         </div>
         
     );
