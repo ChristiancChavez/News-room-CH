@@ -1,6 +1,6 @@
 import { createStore } from 'redux';
 
-const newsHomeInicialState = {
+const newsInicialState = {
     sportsNews: [],
     technologyNews: [],
     politicsNews: [],
@@ -50,7 +50,7 @@ const newsHomeInicialState = {
     ]
 };
 
-const reducerNews = (state = newsHomeInicialState, action) => {
+const reducerNews = (state = newsInicialState, action) => {
     return state;
 }
 

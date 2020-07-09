@@ -3,12 +3,12 @@ import Header from '../Header/Header';
 import Categories from '../Categories/Categories';
 import News from '../News/News';
 
-function Home(props) {
+const Home = () => {
     return (
         <div>
             <Header />
             <Categories />
-            <News />
+            <News a={1} b={2} c={3} />
         </div>
     );
 }

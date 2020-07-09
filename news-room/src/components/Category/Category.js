@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Category = ({ category }) => {
     const callApp = () => {
-        console.log('helloooooooooooooooooooooooooooo')
+        console.log('helloooooooooooooooooooooooooooo');
     }
     return (
         <button onClick={callApp} className="category" id={category}>

@@ -4,9 +4,9 @@ import './News.scss';
 import { connect } from 'react-redux';
 
 const News = ({ news }) => {
-
+    console.log();
     const currentNews = news.map(newInfo => {
-        return <New  src={newInfo.img_url} description={newInfo.title} newspaper={newInfo.source_name} newId={newInfo.news_id} newUrl={newInfo.url} />
+        return <New srcImage={newInfo.img_url} description={newInfo.title} newspaper={newInfo.source_name} newId={newInfo.news_id} newUrl={newInfo.url} />
     });
     return (
         <div className="news">
@@ -16,9 +16,7 @@ const News = ({ news }) => {
 };
 
 const mapStateToProps = state => ({
-    news: state.HomeNews
+    news: state.homeNews
 })
 
-const mapDispatchToProps = dispatch => ({})
-
-export default connect(mapStateToProps, mapDispatchToProps)(News);
+export default connect(mapStateToProps)(News);
