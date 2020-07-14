@@ -1,12 +1,17 @@
 import React from 'react';
 import './App.scss';
-import Header from './components/Header/Header';
+//import Routes from './components/Routes';
+import { Provider } from 'react-redux';
+import store from './store';
+import Home from './components/Home/Home';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Header />
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <Home />
+      </div>
+    </Provider>
   );
 }
 

@@ -1,0 +1,15 @@
+.category {
+    color: rgb(129, 127, 127);
+    border: 0;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    background: transparent;
+    &:hover {
+        color: rgb(216, 97, 97);
+        border-bottom: 3px solid rgb(216, 97, 97);
+    }
+    &__title {
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+}
