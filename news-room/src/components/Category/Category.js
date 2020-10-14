@@ -2,12 +2,9 @@ import React from 'react';
 import './Category.scss';
 import PropTypes from 'prop-types';
 
-const Category = ({ category }) => {
-    const callApp = () => {
-        console.log('helloooooooooooooooooooooooooooo');
-    }
+const Category = ({ category, ShowCategory }) => {
     return (
-        <button onClick={callApp} className="category" id={category}>
+        <button onClick={() => ShowCategory(category)} className="category" id={category}>
             <h2 className="category__title">{category}</h2>
         </button>
     );
