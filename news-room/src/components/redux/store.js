@@ -1,3 +1,4 @@
+import {FETCH_HOME_NEWS, FETCH_CATEGORY_NEWS } from './actions';
 import { createStore } from 'redux';
 
 const newsInicialState = {
@@ -51,6 +52,14 @@ const newsInicialState = {
 };
 
 const reducerNews = (state = newsInicialState, action) => {
+    console.log(action);
+if (action.type === 'SHOW_NEWS_SELECTED_CATEGORY') {
+    return {
+        ...state,
+        
+    }
+}
+
     return state;
 }
 
